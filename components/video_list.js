@@ -80,7 +80,6 @@ class VideoList extends Component {
     if (this.state.isLoading) {
       return this.renderLoadingView();
     }
-    console.log(this.state.dataSource);
     return (
       <View>
         <SearchBar
