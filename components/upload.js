@@ -40,6 +40,7 @@ const Upload = (props) => {
     await GoogleSignin.signInSilently();
   }
 
+  // eslint-disable-next-line consistent-return
   async function retrieveVideo() {
     const { status } = await Permissions.askAsync(Permissions.MEDIA_LIBRARY);
     if (status === 'granted') {
@@ -52,7 +53,6 @@ const Upload = (props) => {
         return result;
       }
     }
-    return status;
   }
 
   async function upload() {
