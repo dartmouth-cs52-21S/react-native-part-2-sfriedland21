@@ -1,14 +1,13 @@
 # CS52 React Short EC
 
-Implemented React-Intro youtube search in React Native.
+Added upload functionality to React Native youtube short.
 
 ## What Worked Well
-*Possibly* slowly catching on to React Native we shall see. 
-Interesting to stick the styling into the components themselves instead of a generic
-stylesheet. 
+The animations are so cool! The Firebase authentication will be very helpful for
+the final project.
 
 ## What Didn't
-Ideally would have liked to debounce the `search`/`fetchData`.
+Hit the Youtube API endpoint a few too many timnes so testing was limited.
 
 ## Screenshots
 Running locally
