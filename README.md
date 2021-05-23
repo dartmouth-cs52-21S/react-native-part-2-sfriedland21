@@ -12,4 +12,4 @@ Hit the Youtube API endpoint a few too many timnes so testing was limited.
 ## Screenshots
 Running locally
 
-![local](./assets/local.png)
+![localrun](./assets/localrun.png)
